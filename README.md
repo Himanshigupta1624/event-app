@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Event App 📅
 
+## Overview
+This is a event management application built using **React Native (Expo) for the frontend** and **Django with Django REST Framework (DRF) for the backend**. The application allows users to view, create, and manage events.
 
+## Setup Instructions
 
-## Get started
+### 1. Clone the repository
+```sh
+git clone https://github.com/Himanshigupta1624/event-app.git
+```
+### Backend Setup (Django)
+1. Navigate to the backend folder
+```
+ cd event-django
+```
+2. Create and activate a virtual environment
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+4. Run migrations and start the server
+```
+python manage.py migrate
+python manage.py runserver
+```
 
-## Learn more
+The Django API will now be running at: http://127.0.0.1:8000/api/events/
 
-To learn more about developing your project with Expo, look at the following resources:
+### Frontend Setup (Expo - React Native)
+1. Navigate to the frontend folder
+```
+cd event-app
+```
+2. Install dependencies
+```
+npm install
+```
+3. Start the Expo development server
+```
+npx expo start
+```
+Run on http://localhost:8081/ and add details to see the events at Home page.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📸 Screenshots
 
-## Join the community
+###  Home Page
+![Home](screenshots\Home.png)
 
-Join our community of developers creating universal apps.
+###  Drawer
+![Drawer](screenshots\Drawer.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+###  Events Details
+![Events details](screenshots\events-details.png)
+
+###  Add Events Page
+![Add events](screenshots\Add-events.png)
+
+
+<div align="center">
+    <h3>========Thank You=========</h3>
+</div>
+
+
