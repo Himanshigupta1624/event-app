@@ -52,16 +52,16 @@ Run on http://localhost:8081/ and add details to see the events at Home page.
 ## 📸 Screenshots
 
 ###  Home Page
-![Home](screenshots\Home.png)
+![Home](screenshots/Home.png)
 
 ###  Drawer
-![Drawer](screenshots\Drawer.png)
+![Drawer](screenshots/Drawer.png)
 
 ###  Events Details
-![Events details](screenshots\events-details.png)
+![Events details](screenshots/events-details.png)
 
 ###  Add Events Page
-![Add events](screenshots\Add-events.png)
+![Add events](screenshots/Add-events.png)
 
 
 <div align="center">
