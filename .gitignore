@@ -1,0 +1,73 @@
+# Node.js & Expo
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# TypeScript
+*.tsbuildinfo
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Django & Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+db.sqlite3
+instance/
+*.log
+*.pot
+*.pyc
+*.swp
+*.swo
+*.pid
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django media/uploads
+media/
+static/
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Django Secrets
+.env
+config/settings/local.py
+config/settings/*.env
+
+# JetBrains IDEs
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
